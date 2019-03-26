@@ -1,4 +1,4 @@
-vlog instruction_parser.v top_instruction.v tb_top.v
+vlog instruction_parser.v top_instruction.v tb_top.v registerFile.v
 vsim -novopt work.tb_top
 view wave
 add wave sim:/tb_top/*
